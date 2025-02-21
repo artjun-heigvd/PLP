@@ -1,0 +1,17 @@
+{
+    "contact_details": {
+      "email": "john.doe@example.com",
+      "phone": "+1-555-123-4567",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "country": "USA"
+      }
+    },
+
+    "personal_info": {
+      "first_name": "Abdel",
+      "last_name": "Mahmoud",
+      "age": 37
+    }
+  }

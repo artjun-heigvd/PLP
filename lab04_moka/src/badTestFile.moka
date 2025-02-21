@@ -1,0 +1,16 @@
+// Syntax error examples
+class BadSyntax {
+    // Missing semicolon
+    int x = 42
+
+    // Invalid method declaration (missing parentheses)
+    void badMethod {
+        return;
+    }
+
+    // Missing closing brace
+    void unclosed() {
+        if (true) {
+            int x = 1;
+        // Missing }
+}

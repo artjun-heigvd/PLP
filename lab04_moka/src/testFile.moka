@@ -1,0 +1,86 @@
+// Base class
+class Animal {
+    int age = 0;
+    boolean isAlive = true;
+    
+    // Constructor
+    Animal(int startAge) {
+        age = startAge;
+    }
+    
+    void makeSound() {
+        // Empty method
+    }
+    
+    int getAge() {
+        return age;
+    }
+}
+
+// Derived class showing inheritance
+class Dog extends Animal {
+    boolean isHungry;
+    
+    // Constructor with parameter
+    Dog(int startAge) {
+        age = startAge;
+        isHungry = true;
+    }
+    
+    void bark() {
+        // Method with block statement
+        {
+            int barkCount = 3;
+            while (barkCount > 0) {
+                barkCount = barkCount - 1;
+            }
+        }
+    }
+    
+    void feed() {
+        // If-else statement
+        if (isHungry) {
+            isHungry = false;
+        } else {
+            return;
+        }
+    }
+    
+    boolean checkStatus() {
+        // Variable declaration with initialization
+        int checkCount = 5;
+        
+        // While loop with break
+        while (true) {
+            if (checkCount == 0) {
+                break;
+            }
+            checkCount = checkCount - 1;
+        }
+        
+        // Return statement with expression
+        return isHungry;
+    }
+}
+
+// Main class with object creation and method calls
+class Main {
+    void main() {
+        // Object creation
+        Dog spot = new Dog(3);
+        
+        // Method calls
+        spot.bark();
+        spot.feed();
+        
+        // Member access
+        boolean status = spot.isHungry;
+        
+        // Multiple variable declarations
+        int x = 42;
+        boolean flag = false;
+        
+        // Empty statement
+        ;
+    }
+}

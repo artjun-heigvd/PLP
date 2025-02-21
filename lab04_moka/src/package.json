@@ -1,0 +1,14 @@
+{
+  "name": "mokac",
+  "version": "1.0.0",
+  "description": "A parser for Moka, a subset of Java",
+  "type": "commonjs",
+  "main": "mokac.js",
+  "scripts": {
+    "start": "node mokac.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "12.1.0"
+  }
+}

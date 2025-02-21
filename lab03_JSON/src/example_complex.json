@@ -1,0 +1,47 @@
+{
+  "name": "Alice",
+  "age": 30,
+  "is_student": false,
+  "address": {
+      "street": "123 Maple Street",
+      "city": "Springfield",
+      "zip": 54321,
+      "geo": {
+          "lat": 40.7128,
+          "lng": -74.0060
+      }
+  },
+  "skills": [
+      {
+          "name": "Programming",
+          "languages": ["Haskell", "Python", "JavaScript"],
+          "experience": 5.5
+      },
+      {
+          "name": "Mathematics",
+          "topics": ["Algebra", "Calculus", "Statistics"]
+      }
+  ],
+  "projects": [
+      {
+          "title": "JSON Parser",
+          "status": "In Progress",
+          "contributors": [
+              {
+                  "name": "Bob",
+                  "role": "Developer"
+              },
+              {
+                  "name": "Charlie",
+                  "role": "Tester"
+              }
+          ]
+      },
+      {
+          "title": "AI Chatbot",
+          "status": "Completed",
+          "contributors": []
+      }
+  ],
+  "metadata": null
+}
